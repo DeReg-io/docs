@@ -28,11 +28,11 @@ Give your trigger a name.
 
 Choose the network where your contract is deployed.
 
-**Note**: We do not support _Mainnet_ yet. If you are interested in it, please [let us know](mailto:contact@dereg.io?subject=Hi%20DeReg!).
+**Note**: We do not support _Mainnet_ yet. If you are interested in it, please let us know (contact@dereg.io).
 
 #### Contract Address
 
-The address of your smart contract. Make sure your contract inherits from _Triggerable_ and passes your _UserID_ (see [Configure Smart Contract]('/')).
+The address of your smart contract. Make sure your contract inherits from _Triggerable_ and passes your _UserID_ (see [Configure Smart Contract](/)).
 
 #### Allowlist for specific domains
 
