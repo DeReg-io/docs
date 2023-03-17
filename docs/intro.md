@@ -59,8 +59,7 @@ Just like the `Pausable` example you'll have to replace the example _UserID_ (`1
 // Add Easy Trigger import, can be shortened if remappings.txt is configured
 import { Triggerable } from "lib/ez-trigger/src/Triggerable.sol";
 
-// Add TriggerablePause to parent contracts.
-contract YourContract is Pausable, Triggerable("1234567b-fbe1-1234-1234-12abcde123a1") {
+contract YourContract is Triggerable("1234567b-fbe1-1234-1234-12abcde123a1") {
     function _onTrigger() internal override {
         // Custom trigger logic
     }
