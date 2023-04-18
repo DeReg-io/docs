@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Example: Trigger by Forta Notifications
+# Example: Trigger via Forta Notifications
 
 You can let Forta trigger your _Easy Trigger_ and as a result, call your smart contract.
 This can be useful, e.g. if you want to pause your contract on a potential attack. (see
@@ -27,7 +27,7 @@ Click on _Ethereum Mainnet_ and then on _Add network_ and add _Polygon Mainnet_.
 
 Finally, choose the _Polygon Mainnet_ network from the dropdown at the top of the _Metamask_ browser plugin.
 
-## LogIn to Forta
+## Log-In to Forta
 
 Go to https://app.forta.network/notifications.
 
@@ -39,8 +39,11 @@ Once your signed in, click on _Add subscription_, where you should see the follo
 
 In the _Select Subscription type_ dropdown you can one of the options, e.g. one of the _Forta Curated_ selection of bots. Alternatively you can also also fist [search for a specific bot](https://explorer.forta.network/).
 
-❗ **Note** ❗: If your _Easy Trigger_ will, e.g. pause your smart contract,
-we highly recommend adding a filter that Forta will only call your Webhook on _Critical_ severity alerts.
+
+:::caution
+If your _Easy Trigger_ will, e.g. pause your smart contract, we highly recommend adding a filter that Forta will only call your Webhook on _Critical_ severity alerts.
+Setting an appropriate filter is important as your trigger will be executed whenever the associated webhook receives a request.
+:::
 
 To add a filter, click _Add Filter_, select _Min Severity_ and then _CRITICAL_.
 

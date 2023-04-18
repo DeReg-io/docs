@@ -3,16 +3,27 @@ sidebar_position: 1
 slug: /
 ---
 
-# Configure Smart Contract
+# Intro: What is Easy Trigger & How to Get Started
 
-_Easy Trigger_ provides you with a webhook that will trigger a specific smart contract function when called.
+_Easy Trigger_ provides you with a webhook that will trigger a specific smart contract function when
+called. It can be integrated directly into new contracts or added to existing contracts.
+
+:::info
+
+Note that _Easy Trigger_ is a tool still in Alpha and may be subject to frequent changes. If you
+have any features to request or bugs to report you can let us know [on our Discord](https://discord.gg/EXrQARywPk).
+
+Any breaking changes **especially** security relevant ones will be announced on both our Discord
+& [Twitter](https://twitter.com/).
+
+:::
 
 ## Smart Contract Integration (using `foundry`)
 
 ### 1. Installation
 
 ```
-foundry install dereg-io/ez-trigger
+forge install dereg-io/ez-trigger
 ```
 
 ### 2. Obtain your UserID

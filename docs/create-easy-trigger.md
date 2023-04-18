@@ -49,7 +49,11 @@ After you saved, the Webhook will be created.
 
 ![Saved Webhook](/screenshots/webhook_created.png)
 
-❗ **Note** ❗: By default, calling the Webhook does **not** trigger the smart contract, so you can first test it. To activate it, click on the active switch (see [6.](/create-easy-trigger#6-activate-easy-trigger))
+:::caution
+
+By default, calling the Webhook does **not** trigger the smart contract, so you can first test it. To activate it, click on the active switch (see [6.](/create-easy-trigger#6-activate-easy-trigger))
+
+:::
 
 ### 5. Test _Easy Trigger_
 
