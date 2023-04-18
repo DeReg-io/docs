@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Create Easy Trigger
+# Creating & Confuring A Trigger Webhook
 
 ## Prerequisites
 
