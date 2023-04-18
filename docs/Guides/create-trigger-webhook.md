@@ -51,7 +51,7 @@ After you saved, the Webhook will be created.
 
 :::caution
 
-By default, calling the Webhook does **not** trigger the smart contract, so you can first test it. To activate it, click on the active switch (see [6.](/create-easy-trigger#6-activate-easy-trigger))
+By default, calling the Webhook does **not** trigger the smart contract, so you can first test it. To activate it, click on the active switch (see [6.](#6-activate-easy-trigger))
 
 :::
 
@@ -60,7 +60,7 @@ By default, calling the Webhook does **not** trigger the smart contract, so you 
 You can now send a **POST** request to your Webhook URL
 
 Alternatively you can just click _Trigger Webhook_ in order to test it.
-If your _Easy Trigger_ is active (see [6.](/create-easy-trigger#6-activate-easy-trigger)),
+If your _Easy Trigger_ is active (see [6.](#6-activate-easy-trigger)),
 pressing _Trigger Webhook_ will also call your smart contract.
 
 Every time the an _Easy Trigger_ is called you will get a notification and can see details by clicking on the bell icon of your trigger.

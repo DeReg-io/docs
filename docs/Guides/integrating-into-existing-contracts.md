@@ -147,7 +147,7 @@ the restricted functions from its trigger:
 ![Intermediate Ownership Transfer Diagram](/img/intermediate-owner-transfer.svg)
 
 Now that you've added trigger capabilities to your contract you'll can add and configure your trigger
-webhook in the DeReg dashboard, you can see the [guide here](/create-easy-trigger).
+webhook in the DeReg dashboard, you can see the [guide here](./create-trigger-webhook).
 
 
 ## A Note On Security & Splitting Access Control

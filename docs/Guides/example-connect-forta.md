@@ -11,7 +11,7 @@ This can be useful, e.g. if you want to pause your contract on a potential attac
 ## Prerequisites
 
 You will first need to [Configure your Smart Contract](/) and
-[Create an _Easy Trigger_](/create-easy-trigger).
+[Create an _Easy Trigger_](./create-trigger-webhook).
 
 You will also need an ethereum wallet for _Polygon Mainnet_ in order to create a Forta notification.
 
@@ -49,4 +49,4 @@ To add a filter, click _Add Filter_, select _Min Severity_ and then _CRITICAL_.
 
 Depending on what bots you select, enter your Contract address in _Addresses to watch_.
 
-Finally click on _Webhook_ under _Notify me via_ and enter the [Webhook Url from your _Easy Trigger_](/create-easy-trigger#4-use-webhook).
+Finally click on _Webhook_ under _Notify me via_ and enter the [Webhook Url from your _Easy Trigger_](./create-trigger-webhook#4-use-webhook).
