@@ -65,7 +65,6 @@ interface IPausable {
     function pause() external;
 }
 
-/// @author philogy <https://github.com/philogy>
 contract PauserIntermediate is
     // Address of the initial owner.
     TriggeredOwner(0xFFfFfFffFFfffFFfFFfFFFFFffFFFffffFfFFFfF, "1234567b-fbe1-1234-1234-12abcde123a1")
@@ -115,12 +114,10 @@ As an example in a `/script` folder create a new `/script/DeployIntermediate.s.s
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.19;
 
-import {Test} from "forge-std/Test.sol";
 import {Script} from "forge-std/Script.sol";
 import {PauserIntermediate} from "../src/PauserIntermediate.sol";
 
-/// @author philogy <https://github.com/philogy>
-contract DeployIntermediateScript is Test, Script {
+contract DeployIntermediateScript is Script {
     function run() public {
         // Requires `.env` file with `PRIV_KEY` constant set to deploy wallet private key.
         vm.startBroadcast(vm.envUint("PRIV_KEY"));
