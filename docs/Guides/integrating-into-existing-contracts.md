@@ -53,13 +53,13 @@ trigger:
 2. Sign up for an account on [app.dereg.io](https://app.dereg.io/) (don't worry it's free) and get your User-ID
 
 Once you have your basic setup you can start writing your contract in your foundry project. Start by
-creating a new contract and importing the `TriggeredOwner` preset:
+creating a new contract and importing the `IntermediateTrigger` preset:
 
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.19;
 
-import {TriggeredOwner} from "ez-trigger/src/presets/TriggeredOwner.sol";
+import {IntermediateTrigger} from "ez-trigger/src/presets/IntermediateTrigger.sol";
 
 interface IPausable {
     function pause() external;
@@ -67,7 +67,7 @@ interface IPausable {
 
 contract PauserIntermediate is
     // Address of the initial owner.
-    TriggeredOwner(0xFFfFfFffFFfffFFfFFfFFFFFffFFFffffFfFFFfF, "1234567b-fbe1-1234-1234-12abcde123a1")
+    IntermediateTrigger(0xFFfFfFffFFfffFFfFFfFFFFFffFFFffffFfFFFfF, "1234567b-fbe1-1234-1234-12abcde123a1")
 {
     // Contract to be triggered.
     IPausable internal constant PAUSABLE = IPausable(0xFFfFfFffFFfffFFfFFfFFFFFffFFFffffFfFFFfF);
