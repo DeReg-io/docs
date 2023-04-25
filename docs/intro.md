@@ -56,7 +56,7 @@ different users from triggering each other's contracts.
 // Add Easy Trigger import, can be shortened if remappings.txt configured.
 import { Triggerable } from "ez-trigger/src/Triggerable.sol";
 
-// Add `TriggerablePause` to parent contracts.
+// Add `Triggerable` to parent contracts (contracts you're inheriting from)
 contract YourContract is Pausable, Triggerable("1234567b-fbe1-1234-1234-12abcde123a1") {
     function _onTrigger() internal override {
         _pause();
