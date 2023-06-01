@@ -11,7 +11,7 @@ called. It can be integrated directly into new contracts or added to existing co
 :::info
 
 Note that _Easy Trigger_ is a tool still in Alpha and may be subject to frequent changes. If you
-have any features to request or bugs to report you can let us know [on our Discord](https://discord.gg/EXrQARywPk).
+have any features to request or bugs to report you can let us know [on our Discord](https://discord.gg/HUBkW97Xma).
 
 Any breaking changes **especially** security relevant ones will be announced on both our Discord
 & [Twitter](https://twitter.com/).
